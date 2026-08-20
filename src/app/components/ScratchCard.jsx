@@ -430,20 +430,20 @@ const ScratchCard = () => {
         overflow-visible
       "
     >
-      <div className=" mx-auto w-full max-w-[1200px] flex items-center justify-center gap-3 sm:gap-5 md:gap-7 lg:gap-9 overflow-visible " >
+      <div className=" mx-auto w-full max-w-[1200px] flex items-center justify-center gap-0 sm:gap-5 md:gap-7 lg:gap-5 overflow-visible " >
      
-        <div  className="md-w-[24%] w-[50%] flex items-center justify-center overflow-visible" >
+        <div  className="md:w-[30%] w-[50%] flex items-center justify-center overflow-visible" >
           <ScratchHeart
             title="DAY"
             value="26"
-            valueClass="text-[14px] sm:text-[42px] md:text-[54px] lg:text-[50px]"
+            valueClass="text-[26px] sm:text-[42px] md:text-[54px] lg:text-[50px]"
           />
         </div>
 
        
         <div
           className="
-            md:w-[24%]
+            md:w-[30%]
             w-[50%]
             flex
             items-center
@@ -455,7 +455,7 @@ const ScratchCard = () => {
             title="MONTH"
             value="JUNE"
             valueClass="
-              text-[14px]
+              text-[22px]
               md:text-[42px]
               lg:text-[35px]
             "
@@ -463,7 +463,7 @@ const ScratchCard = () => {
         </div>
         <div
           className="
-           md:w-[24%]
+           md:w-[30%]
             w-[50%]
             flex
             items-center
@@ -475,7 +475,7 @@ const ScratchCard = () => {
             title="YEAR"
             value="2026"
             valueClass="
-              text-[14px]
+              text-[22px]
               sm:text-[40px]
               md:text-[52px]
               lg:text-[35px]

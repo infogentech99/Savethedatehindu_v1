@@ -45,7 +45,8 @@ export default function Home() {
           </div>
           <div className="flex justify-center md:mt-50 mt-30">
             <h2 className="text-[#A25000] md:text-2xl text-6xl  lg:text-8xl text-end font-katibeh leading-12 md:leading-16">
-              Save <br /> <span className="md:text-6xl text-4xl">the</span> <br /> Date
+              Save <br /> <span className="md:text-6xl text-4xl">the</span>{" "}
+              <br /> Date
             </h2>
           </div>
           <div>
@@ -69,15 +70,31 @@ export default function Home() {
             <hr className="w-30 mt-18 border-1 border-[#A25000]" />
           </div>
 
-          <div className="flex justify-between  md:mt-20 mt-40">
-            <img src="/assets/element4.png" alt="element1" className="md:h-100 h-40" />
+          <div className="block md:hidden">
+            <ScratchCard />
+          </div>
+
+          <div className="flex justify-between  md:mt-20 " >
+            <img
+              src="/assets/element4.png"
+              alt="element1"
+              className="md:h-100 h-40"
+            />
             <div className="md:ml-50 w-full mb-50">
-              <ScratchCard/>
+              
+              <div className="md:block hidden">
+                <ScratchCard />
+              </div>
+
               <h2 className="text-[#A25000] md:text-2xl text-[17px] text-center font-jacques-francois  mt-8">
                 Scratch To Discover The Date
               </h2>
             </div>
-            <img src="/assets/element5.png" alt="element2" className="md:h-100 h-30" />
+            <img
+              src="/assets/element5.png"
+              alt="element2"
+              className="md:h-100 h-30"
+            />
           </div>
 
           <div className="flex justify-center  md:mt-20 md:px-40 px-5 mt-0">

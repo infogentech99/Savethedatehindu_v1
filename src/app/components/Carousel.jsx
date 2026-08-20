@@ -7,23 +7,23 @@ import "swiper/css/pagination";
 export default function Carousel() {
   const testimonial = [
     {
-      img: "/assets/image1.webp",
+      img: "/assets/1.webp",
     },
 
     {
-      img: "/assets/image2.png",
+      img: "/assets/2.png",
     },
 
     {
-      img: "/assets/image3.png",
+      img: "/assets/3.png",
     },
 
     {
-      img: "/assets/image4.webp",
+      img: "/assets/4.webp",
     },
 
     {
-      img: "/assets/image5.png",
+      img: "/assets/5.png",
     },
   ];
   return (

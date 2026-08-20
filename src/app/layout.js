@@ -16,8 +16,8 @@ export const metadata = {
   metadataBase: new URL("https://savethedatehindu-v1.vercel.app/"),
 
   openGraph: {
-    title: "Tejas Patel Weds Nikita Patel",
-    description: "Join as they begin their forever. 24, 25, 26 & 27 November, 2026",
+    title: "Ramesh Weds Nikita",
+    description: "Join as they begin their forever. 27 November, 2026",
     url: "https://savethedatehindu-v1.vercel.app/",
     siteName: "InviteArc",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Tejas Patel Weds Nikita Patel",
+        alt: "Ramesh Weds Nikita",
       },
     ],
     type: "website",
@@ -34,8 +34,8 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Tejas Patel Weds Nikita Patel",
-    description: "Join as they begin their forever. 24, 25, 26 & 27 November, 2026",
+    title: "Ramesh Weds Nikita",
+    description: "Join as they begin their forever.  27 November, 2026",
     images: ["/og.jpg"],
   },
 

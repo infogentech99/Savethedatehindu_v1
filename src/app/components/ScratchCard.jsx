@@ -461,7 +461,6 @@ const ScratchCard = () => {
             "
           />
         </div>
-
         <div
           className="
            md:w-[24%]

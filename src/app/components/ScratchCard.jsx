@@ -432,11 +432,11 @@ const ScratchCard = () => {
     >
       <div className=" mx-auto w-full max-w-[1200px] flex items-center justify-center gap-3 sm:gap-5 md:gap-7 lg:gap-9 overflow-visible " >
      
-        <div  className="w-[24%] flex items-center justify-center overflow-visible" >
+        <div  className="md-w-[24%] w-[50%] flex items-center justify-center overflow-visible" >
           <ScratchHeart
             title="DAY"
             value="26"
-            valueClass="text-[14px] sm:text-[42px] md:text-[54px] lg:text-[68px]"
+            valueClass="text-[14px] sm:text-[42px] md:text-[54px] lg:text-[50px]"
           />
         </div>
 
@@ -444,7 +444,7 @@ const ScratchCard = () => {
         <div
           className="
             md:w-[24%]
-            w-[30%]
+            w-[50%]
             flex
             items-center
             justify-center
@@ -457,7 +457,7 @@ const ScratchCard = () => {
             valueClass="
               text-[14px]
               md:text-[42px]
-              lg:text-[54px]
+              lg:text-[35px]
             "
           />
         </div>
@@ -465,7 +465,7 @@ const ScratchCard = () => {
         <div
           className="
            md:w-[24%]
-            w-[30%]
+            w-[50%]
             flex
             items-center
             justify-center
@@ -479,7 +479,7 @@ const ScratchCard = () => {
               text-[14px]
               sm:text-[40px]
               md:text-[52px]
-              lg:text-[66px]
+              lg:text-[35px]
             "
           />
         </div>

@@ -83,7 +83,7 @@ export default function Carousel() {
         </a>
       </div>
       <p className="font-jacques-francois font-medium text-xs md:text-sm lg:text-base text-[#A25000] mt-2 text-center">
-        ©{" "}
+        ©
         <a href="https://invitearc.com/" target="_blank">
           InviteArc
         </a>

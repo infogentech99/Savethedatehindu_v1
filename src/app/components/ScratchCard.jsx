@@ -118,12 +118,10 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
     ctx.drawImage(image, x, y, drawWidth, drawHeight);
   };
 
-
   useEffect(() => {
     setupCanvas();
 
     const handleResize = () => {
-     
       if (!isDrawing.current) {
         setupCanvas();
       }
@@ -135,7 +133,6 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
   const getPoint = (e) => {
     const canvas = canvasRef.current;
@@ -150,7 +147,6 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
     };
   };
 
- 
   const scratchBetween = (from, to) => {
     const canvas = canvasRef.current;
 
@@ -160,9 +156,7 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
 
     ctx.save();
 
-   
     ctx.globalCompositeOperation = "destination-out";
-
 
     const distance = Math.hypot(to.x - from.x, to.y - from.y);
 
@@ -331,7 +325,6 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
     return () => clearInterval(interval);
   }, []);
 
- 
   return (
     <div
       ref={containerRef}
@@ -345,7 +338,6 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
         overflow-visible
       "
     >
-     
       <div
         className="
           absolute
@@ -417,7 +409,6 @@ const ScratchHeart = ({ title, value, valueClass = "" }) => {
   );
 };
 
-
 const ScratchCard = () => {
   return (
     <section
@@ -430,9 +421,8 @@ const ScratchCard = () => {
         overflow-visible
       "
     >
-      <div className=" mx-auto w-full max-w-[1200px] flex items-center justify-center gap-0 sm:gap-5 md:gap-7 lg:gap-5 overflow-visible " >
-     
-        <div  className="md:w-[30%] w-[50%] flex items-center justify-center overflow-visible" >
+      <div className=" mx-auto w-full max-w-[1200px] flex items-center justify-center gap-0 sm:gap-5 md:gap-7 lg:gap-5 overflow-visible ">
+        <div className="md:w-[30%] w-[50%] flex items-center justify-center overflow-visible">
           <ScratchHeart
             title="DAY"
             value="26"
@@ -440,7 +430,6 @@ const ScratchCard = () => {
           />
         </div>
 
-       
         <div
           className="
             md:w-[30%]

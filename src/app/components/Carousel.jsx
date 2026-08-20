@@ -86,8 +86,8 @@ export default function Carousel() {
         ©{" "}
         <a href="https://invitearc.com/" target="_blank">
           InviteArc
-        </a>{" "}
-        2026{" "}
+        </a>
+        2026
       </p>
     </div>
   );
